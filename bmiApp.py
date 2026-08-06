@@ -2,7 +2,7 @@ import streamlit as st
 
 #ส่วนที่ 1 หัวข้อหน้าเว็บ(Title สีแดง)
 st.markdown("# :red[🧾 คำนวณค่าดัชนีมวลกาย BMI]")
-st.write(" 45 กม. 162 ซม.")
+st.write(" 45 กิโลกรัม. 162 เซนติเมตร.")
 
 #ส่วนที่ 2 สร้างช่องรับค่าน้ำหนัก และ ส่วนสูง
 weight = st.number_input(" 45 (กิโลกรัม) :", min_value=1.0)
