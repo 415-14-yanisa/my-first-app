@@ -80,11 +80,9 @@ ans2 = st.text_input(
     "ข้อ 2: Cats love to eat `f _ s h`. 🐟",
     value=st.session_state.ans2_val,
 )
-)
 ans3 = st.text_input(
     "ข้อ 3: I love to eat `m _ n g _`. 🥭 ",
     value=st.session_state.ans3_val,
-)
 )
 ans4 = st.text_input(
     "ข้อ 4: I write with a  `p _ n c i _`.✏️  ",
